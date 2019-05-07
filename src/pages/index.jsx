@@ -63,28 +63,28 @@ const Index = () => (
     <Parallax pages={5}>
       <Hero offset={0}>
         <BigTitle>
-          Hello, <br /> I'm John Doe.
+          Hello, I'm Spencer Voorhees.
         </BigTitle>
-        <Subtitle>I'm creating noice web experiences for the next generation of consumer-facing companies.</Subtitle>
+        <Subtitle>I take complicated concepts and turn them into working solutions.</Subtitle>
       </Hero>
       <Projects offset={1}>
-        <Title>Projects</Title>
+        <Title>PROJECTS</Title>
         <ProjectsWrapper>
           <ProjectCard
-            title="Freiheit"
-            link="https://www.behance.net/gallery/58937147/Freiheit"
-            bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
+            title="Orenda Aesthetics"
+            link="https://www.orendaaesthetics.com/#/"
+            bg="linear-gradient(to right, #ffd4e5 0%, #cd950c 100%)"
           >
-            This project is my entry to Adobe's #ChallengeYourPerspective contest.
+            This project is a website for my sister in law's buisness.
           </ProjectCard>
           <ProjectCard
-            title="Harry Potter"
+            title="Group Project"
             link="https://www.behance.net/gallery/52915793/Harry-Potter"
-            bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
+            bg="linear-gradient(to right, #00cdcd 0%, #fcc129 100%)"
           >
-            I entered the DOCMA 2017 award with this Harry Potter inspired image.
+            Have not completed yet.
           </ProjectCard>
-          <ProjectCard
+          {/* <ProjectCard
             title="Tomb Raider"
             link="https://www.behance.net/gallery/43907099/Tomb-Raider"
             bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
@@ -97,40 +97,32 @@ const Index = () => (
             bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
           >
             A fantasy image manipulation relocating the habitat of wild animals.
-          </ProjectCard>
+          </ProjectCard> */}
         </ProjectsWrapper>
       </Projects>
       <About offset={3}>
-        <Title>About</Title>
+        <Title>ABOUT</Title>
         <AboutHero>
-          <Avatar src={avatar} alt="John Doe" />
           <AboutSub>
-            The English language can not fully capture the depth and complexity of my thoughts. So I'm incorporating
-            Emoji into my speech to better express myself. Winky face.
+            I have always wanted a career to push me to my limits. A career that would be hard but also exciting in
+            a way that I could create web applications for customers.
           </AboutSub>
         </AboutHero>
         <AboutDesc>
-          You know the way you feel when you see a picture of two otters holding hands? That's how you're gonna feel
-          every day. My mother cried the day I was born because she knew she’d never be prettier than me. You should
-          make me your campaign manager. I was born for politics. I have great hair and I love lying. Captain? The kids
-          want to know where Paulie the Pigeon is. I told them he got sucked up into an airplane engine, is that all
-          right?
+          Outside of Web Development I like everything outdoors. I love to play sports and to learn new things. I thrive
+          to learn new challenging things that I will once be able to overcome and make it a skill.
         </AboutDesc>
       </About>
       <Contact offset={4}>
         <Inner>
-          <Title>Get in touch</Title>
+          <Title>CONTACT INFO</Title>
           <ContactText>
-            Say <a href="mailto:plizNoSp4m@domain.tld">Hi</a> or find me on other platforms:{' '}
-            <a href="https://dribbble.com/LekoArts">Dribbble</a> &{' '}
-            <a href="https://www.instagram.com/lekoarts.de/">Instagram</a>
+            Send me an <a href="mailto:plizNoSp4m@domain.tld">email</a> or text/call at (801)836-0956. You can also
+             find me on other platforms:{' '}
+            <a href="https://www.linkedin.com/in/spencer-voorhees/">LinkedIn</a> &{' '}
+            <a href="https://www.instagram.com/sdvoorhees/">Instagram</a>
           </ContactText>
         </Inner>
-        <Footer>
-          &copy; 2019 by Gatsby Starter Portfolio Cara.{' '}
-          <a href="https://github.com/LekoArts/gatsby-starter-portfolio-cara">Github Repository</a>. Made by{' '}
-          <a href="https://www.lekoarts.de">LekoArts</a>.
-        </Footer>
       </Contact>
     </Parallax>
   </>
